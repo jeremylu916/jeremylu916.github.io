@@ -7,9 +7,39 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I'm **Binghang Lu**, a graduate researcher about Large-Language Model (LLM), Generative AI, scientific machine learning and optimization algorithms. I created this website to share my academic work, research updates, and professional materials like my [CV](/files/Purdue.MSECE.Binghang.Lu.Resume.pdf).
+Welcome! I'm **Binghang Lu**, a graduate researcher at Purdue ECE department. I created this website to share my academic work, research updates, and professional materials like my [CV](/files/Purdue.MSECE.Binghang.Lu.Resume.pdf).
+## Research Interests
 
-I'm currently working on applying advanced deep learning techniques, such as **NSGA-III replica exchange optimization**, to improve the performance of neural networks in solving complex forward and inverse problems in differential equations. I also enjoy exploring real-world applications of AI in areas like materials science and environmental modeling.
+- Large Language Model (LLM)
+- Generative AI (duffusion model)
+- Scientific Machine Leanring
+- Uncertainty Quantification
+- Optimization
+---
+
+## News
+
+- **[Jun/2025]** 1 paper accepted by *Journal of Computational Physics*
+- **[May/2025]** 1 paper submitted to *Journal of Computational Physics*
+- **[Dec/2024]** Awarded of Undergraduate Resarch Scholarship 2024 - 2025 year (Top 5%)
+- **[Apr/2024]** Awarded of Spira Undergraduate Research Fellowship, College of Science, Purdue University (1/6000)
+- **[March/2024]** Office of Undergraduate Research Scholarship, Purdue University (Top 5%)
+- **[May/2023]** Thomas Arai Scholarship, Department of Mathematics, Purdue University (Top 1%)
+- **[March/2023]** 1 paper accepted by *ALgorithm*
+
+---
+## Professional Service
+
+Reviewer for:
+- IEEE DSAA
+- Multiscale Modeling and Simulation (MMS)
+-  Journal of Computing and Information Science in Engineering
+---
+## Contact
+
+📧 `lu895 at purdue dot edu`  
+📍 610 Purdue Mall, West Lafayette, 47907, IN, USA
+
 
 Here on my site, you'll find:
 
