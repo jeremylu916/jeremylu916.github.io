@@ -11,7 +11,7 @@ Welcome! I'm **Binghang Lu**, a graduate researcher at Purdue ECE department. I 
 ## Research Interests
 
 - Large Language Model (LLM)
-- Generative AI (duffusion model)
+- Generative AI (diffusion model)
 - Scientific Machine Leanring
 - Uncertainty Quantification
 - Optimization
