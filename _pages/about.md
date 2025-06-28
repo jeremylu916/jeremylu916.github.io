@@ -15,6 +15,7 @@ Welcome! I'm **Binghang Lu**, a graduate researcher at Purdue ECE department. I 
 - Scientific Machine Leanring
 - Uncertainty Quantification
 - Optimization
+
 ---
 
 ## News
@@ -25,7 +26,7 @@ Welcome! I'm **Binghang Lu**, a graduate researcher at Purdue ECE department. I 
 - **[Apr/2024]** Awarded of Spira Undergraduate Research Fellowship, College of Science, Purdue University (1/6000)
 - **[March/2024]** Office of Undergraduate Research Scholarship, Purdue University (Top 5%)
 - **[May/2023]** Thomas Arai Scholarship, Department of Mathematics, Purdue University (Top 1%)
-- **[March/2023]** 1 paper accepted by *ALgorithm*
+- **[March/2023]** 1 paper accepted by *Algorithm*
 
 ---
 ## Professional Service
@@ -33,7 +34,8 @@ Welcome! I'm **Binghang Lu**, a graduate researcher at Purdue ECE department. I 
 Reviewer for:
 - IEEE DSAA
 - Multiscale Modeling and Simulation (MMS)
--  Journal of Computing and Information Science in Engineering
+- Journal of Computing and Information Science in Engineering
+
 ---
 ## Contact
 
