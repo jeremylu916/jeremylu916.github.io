@@ -9,22 +9,22 @@
 
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://scholar.google.com/citations?user=EFPK9yoAAAAJ&hl=en
 
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  # - title: "Teaching"
+  #   url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /files/Purdue.MSECE.Binghang.Lu.Resume
     
   # - title: "CV"
   #   url: /cv-json/
