@@ -1,6 +1,6 @@
 ---
 title: "Fpinn-deeponet: An operator learning framework for multi-term time-fractional mixed diffusion-wave equations"
-excerpt: "A DeepONet-based operator learning framework for complex time-fractional PDEs.<br/><img src='/images/fpinn-deeponet-thumb.png'>"
+excerpt: "A DeepONet-based operator learning framework for complex time-fractional PDEs.<br/><img src='/images/fpinn-deeponet-thumb.jpg'>"
 collection: portfolio
 date: 2025-06-16
 tags: [Operator Learning, Fractional PDEs, L2 approximation, PINN]

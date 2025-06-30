@@ -1,6 +1,6 @@
 ---
 title: "MoPINNEnKF: Iterative Model Inference using generic-PINN-based ensemble Kalman filter"
-excerpt: "Combining ensemble Kalman filtering with PINNs for model parameter inference.<br/><img src='/images/mopinnenkf-thumb.png'>"
+excerpt: "Combining physics-informed neural networks with ensemble Kalman filters to perform robust and iterative model inference.<br/><img src='/images/mopinnenkf-thumb.png'>"
 collection: portfolio
 date: 2025-06-01
 tags: [PINN, Kalman Filter, Model Inference, MoPINNEnKF]

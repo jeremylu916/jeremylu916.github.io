@@ -1,9 +1,9 @@
 ---
 title: "NSGA-PINN: A multi-objective optimization method for physics-informed neural network training"
-excerpt: "Multi-objective optimization for PINNs using NSGA-II and NSGA-III frameworks.<br/><img src='/images/nsga-pinn-thumb.png'>"
+excerpt: "Multi-objective optimization for PINNs using NSGA-II frameworks.<br/><img src='/images/nsga-pinn-thumb.jpg'>"
 collection: portfolio
 date: 2023-10-01
-tags: [NSGA, PINN, Optimization, Multi-objective]
+tags: [NSGA-II, PINN, Multi-objective Optimization]
 ---
 
 Published in *Algorithms*, Volume 16, Issue 4, Article 194 (2023)
