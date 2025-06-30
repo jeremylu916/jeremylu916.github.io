@@ -1,6 +1,6 @@
 ---
 title: "Research on the use of YOLOv5 object detection algorithm in mask wearing recognition"
-excerpt: "YOLOv5-based detection system for real-time mask compliance monitoring.<br/><img src='/images/yolov5-mask-thumb.png'>"
+excerpt: "YOLOv5-based detection system for real-time mask compliance monitoring.<br/>"
 collection: portfolio
 date: 2020-06-01
 tags: [YOLOv5, Computer Vision, COVID-19, Object Detection]
