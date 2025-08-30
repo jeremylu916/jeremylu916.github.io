@@ -19,15 +19,15 @@ Welcome! I'm **Binghang Lu**, a graduate researcher at Purdue ECE department. I 
 ---
 
 ## News
-- **[Aug/2025]** 1 paper "An Evolutionary Multi-objective Optimization for Replica-Exchange-based Physics-informed Operator Learning Network" submitted to *IEEE Transactions on Evolutionary Computation*
-- **[Aug/2025]** 1 paper "MoPINNEnKF: Iterative Model Inference using generic-PINN-based ensemble Kalman filter" accepted by *Journal of Computational Physics*
-- **[Jun/2025]** 1 paper "FPINN-deeponet: A physics-informed operator learning framework for multi-term time-fractional mixed diffusion-wave equations" published on *Journal of Computational Physics*
-- **[May/2025]** 1 paper "MoPINNEnKF: Iterative Model Inference using generic-PINN-based ensemble Kalman filter" submitted to *Journal of Computational Physics*
+- **[Aug/2025]** 1 paper submitted to *IEEE Transactions on Evolutionary Computation*
+- **[Aug/2025]** 1 paper accepted by *Journal of Computational Physics*
+- **[Jun/2025]** 1 paper published on *Journal of Computational Physics*
+- **[May/2025]** 1 paper submitted to *Journal of Computational Physics*
 - **[Dec/2024]** Awarded of Undergraduate Resarch Scholarship 2024 - 2025 year (Top 5%)
 - **[Apr/2024]** Awarded of Spira Undergraduate Research Fellowship, College of Science, Purdue University (1/6000)
 - **[March/2024]** Office of Undergraduate Research Scholarship, Purdue University (Top 5%)
 - **[May/2023]** Thomas Arai Scholarship, Department of Mathematics, Purdue University (Top 1%)
-- **[March/2023]** 1 paper accepted by *Algorithm*
+- **[March/2023]** 1 paper published on *Algorithm*
 
 ---
 ## Professional Service
