@@ -19,7 +19,7 @@ Welcome! I'm **Binghang Lu**, a graduate researcher at Purdue ECE department. I 
 ---
 
 ## News
-- **[Sep/2025]** Awardee of  Mathematical and Statistical Innovation (IMSI) travel award
+- **[Sep/2025]** Awardee of  Institute for Mathematical and Statistical Innovation (IMSI) travel award
 - **[Aug/2025]** 1 paper submitted to *IEEE Transactions on Evolutionary Computation*
 - **[Aug/2025]** 1 paper accepted by *Journal of Computational Physics*
 - **[Jun/2025]** 1 paper published on *Journal of Computational Physics*
