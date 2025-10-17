@@ -34,7 +34,7 @@ Welcome! I'm **Binghang Lu**, a graduate researcher at Purdue ECE department. I 
 ## Professional Service
 
 Reviewer for:
-- IEEE Transactions on Neural Networks and Learning Systems (TTNLS)
+- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - IEEE Data Science and Advanced Analytics (DSAA)
 - Multiscale Modeling and Simulation (MMS)
 - Journal of Computing and Information Science in Engineering
