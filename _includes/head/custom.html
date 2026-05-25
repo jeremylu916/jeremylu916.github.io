@@ -27,9 +27,138 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js'></script>
 
 <!-- SEO META TAGS -->
-<meta name="description" content="Binghang Lu | Personal academic website of a graduate researcher at Purdue ECE. Focused on AI, scientific machine learning, and optimization.">
-<meta name="keywords" content="Binghang Lu, Jeremy Lu, Purdue, AI researcher, NSGA-PINN, DeepONet, scientific machine learning, CV, GitHub">
+<meta name="description" content="Binghang (Jeremy) Lu — graduate researcher at Purdue ECE. Research on Large Language Models, Continual Learning, and AI for Science (AI4S).">
+<meta name="keywords" content="Binghang Lu, Jeremy Lu, Purdue ECE, large language models, LLM continual learning, Muon optimizer, orthogonal gradient projection, AI for Science, AI4S, scientific machine learning, physics-informed neural networks, PINN, DeepONet, fractional PDE, operator learning">
 <meta name="author" content="Binghang Lu">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Binghang Lu — LLMs · Continual Learning · AI4S">
+<meta property="og:description" content="Graduate researcher at Purdue ECE working on Large Language Models, Continual Learning, and AI for Science.">
+<meta property="og:url" content="https://jeremylu916.github.io/">
+<meta property="og:image" content="https://jeremylu916.github.io/images/Binghang_Lu.jpeg">
+
+<!-- Twitter card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Binghang Lu — LLMs · Continual Learning · AI4S">
+<meta name="twitter:description" content="Graduate researcher at Purdue ECE working on Large Language Models, Continual Learning, and AI for Science.">
+<meta name="twitter:image" content="https://jeremylu916.github.io/images/Binghang_Lu.jpeg">
+
+<!-- Inter font for cleaner type -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+
+<!-- Site polish: typography, spacing, news-item styling, research thrust cards -->
+<style>
+  :root {
+    --accent: #c28e0e;       /* Purdue-leaning warm gold */
+    --accent-soft: #f6efde;
+    --ink: #1f2328;
+    --ink-soft: #4a5159;
+    --rule: #e6e8eb;
+  }
+
+  body, .page__content, .archive__item-excerpt, .author__content {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+  }
+  code, pre, kbd, samp { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+  /* Headings — tighter, more confident */
+  .page__content h1, .page__content h2, .page__content h3 {
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  .page__content h1 { font-weight: 700; }
+  .page__content h2 {
+    font-weight: 600;
+    margin-top: 2.2em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--rule);
+  }
+  .page__content h3 {
+    font-weight: 600;
+    margin-top: 1.6em;
+    color: var(--ink);
+  }
+
+  /* Links */
+  .page__content a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease;
+  }
+  .page__content a:hover { border-bottom-color: var(--accent); }
+
+  /* Lead paragraph */
+  .page__content > p:first-of-type {
+    font-size: 1.08em;
+    color: var(--ink-soft);
+    line-height: 1.65;
+  }
+
+  /* News list — date chips */
+  .page__content ul li {
+    margin-bottom: 0.45em;
+    line-height: 1.55;
+  }
+  .page__content ul li strong:first-child {
+    display: inline-block;
+  }
+
+  /* Horizontal rules — softer */
+  .page__content hr {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 2.2em 0;
+  }
+
+  /* Sidebar author card */
+  .author__avatar img {
+    border-radius: 50%;
+    border: 3px solid var(--accent-soft);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  }
+  .author__name { font-weight: 700; letter-spacing: -0.01em; }
+  .author__bio  { color: var(--ink-soft); font-size: 0.95em; }
+
+  /* "Follow" button — subtler */
+  .btn--inverse {
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  /* Archive (publications) cards */
+  .archive__item-title {
+    font-size: 1.15em;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+  }
+  .archive__item-title a { color: var(--ink); }
+  .archive__item-title a:hover { color: var(--accent); }
+  .archive__item-excerpt { color: var(--ink-soft); }
+
+  /* Section headings on archive pages (publication categories) */
+  .page__content h2 + hr { display: none; } /* we already underline h2 above */
+
+  /* Masthead */
+  .masthead { border-bottom: 1px solid var(--rule); }
+  .greedy-nav a { font-weight: 500; }
+  .greedy-nav a.site-title { font-weight: 700; letter-spacing: -0.01em; }
+
+  /* Code blocks */
+  .page__content pre, .page__content code {
+    background: #f7f7f9;
+    border-radius: 4px;
+  }
+
+  /* Spacing on small screens */
+  @media (max-width: 768px) {
+    .page__content h2 { margin-top: 1.6em; }
+  }
+</style>
 
 <!-- STRUCTURED DATA FOR GOOGLE -->
 <script type="application/ld+json">

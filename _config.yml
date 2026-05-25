@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Binghang Lu's Home Page"
-title_separator          : "-"
+title                    : "Binghang Lu"
+title_separator          : "·"
 name                     : &name "Binghang Lu"
-description              : &description "personal description"
+description              : &description "Binghang (Jeremy) Lu — graduate researcher at Purdue ECE working on Large Language Models, Continual Learning, and AI for Science."
 url                      : https://jeremylu916.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "Binghang_Lu.jpeg"
   name             : "Binghang Lu"
   pronouns         : # example: "she/her"  
-  bio              : "Graduate Research at Purdue ECE"
+  bio              : "Graduate Researcher, Purdue ECE — LLMs · Continual Learning · AI4S"
   location         : "West Lafayette, IN, US"
   employer         : "Purdue University"
   uri              : # URL
@@ -76,14 +76,17 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-# Publication Category - The following the list of publication categories and their headings
+# Publication Category - The following is the list of publication categories and their headings
+# Publications are grouped by research thrust rather than by venue, to better
+# reflect the themes Binghang works on. Order here controls section order on
+# the Publications page.
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  llm:
+    title: 'Large Language Models &amp; Safety'
+  llm-cl:
+    title: 'LLM Continual Learning'
+  ai4s:
+    title: 'AI for Science (AI4S)'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
