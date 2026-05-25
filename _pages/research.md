@@ -59,9 +59,14 @@ On the scientific side, I build **physics-informed and operator-learning** metho
 
 ---
 
-## Collaborators
+## Co-authors
 
-I have been fortunate to work with [Guang Lin](https://www.math.purdue.edu/~lin491/) (Purdue), Changhong Mou, Christian Moya, Zhi-Ping Hao, and a wider circle of students and postdocs at Purdue and beyond.
+- **[Guang Lin](https://www.math.purdue.edu/~lin491/)** — Associate Dean for Research; Moses Cobb Stevens Professor of Mathematics and Mechanical Engineering, **Purdue University**
+- **[Na Li](https://nali.seas.harvard.edu/)** — Winokur Family Professor of Electrical Engineering and Applied Mathematics, **Harvard University**
+- **Changhong Mou** — Assistant Professor, Department of Mathematics &amp; Statistics, **Utah State University**
+- **Zhaopeng Hao** — School of Mathematics, **Southeast University**, China
+- **Runyu (Cathy) Zhang** — **MIT**
+- **Xiaomin Li** — **Harvard University**
 
 ---
 
