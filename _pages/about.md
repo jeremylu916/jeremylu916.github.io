@@ -18,11 +18,26 @@ I work on questions like: *how do we update an LLM with new knowledge without er
 ### Large Language Models
 I design **optimizer- and geometry-aware** methods for adapting large pretrained models. Recent work introduces *Muon-OGD*, a spectral orthogonal-gradient-projection variant of the Muon optimizer for continual learning of LLMs, and contributes to safety research on large reasoning models (*Chain of Risk*, adaptive multi-principle steering).
 
+<figure>
+  <img src="/images/chain-of-risk-fig.png" alt="Chain of Risk diagnosis-control loop diagram." style="max-width:100%;border:1px solid #e6e8eb;border-radius:6px;">
+  <figcaption style="font-size:0.9em;color:#4a5159;margin-top:0.4em;"><strong>Chain of Risk.</strong> Stage-wise safety diagnosis of the reasoning trace and final answer feeds adaptive multi-principle steering, which activates only the safety directions relevant to the current hidden state.</figcaption>
+</figure>
+
 ### Continual Learning (for LLMs)
 I am interested in **forgetting-free adaptation** of large language models — methods that let a pretrained LLM absorb a stream of new tasks or domains while preserving prior capabilities. My approach combines spectral / orthogonal gradient projection with the matrix-aware preconditioning of modern LLM optimizers (e.g., Muon), aimed at sharper plasticity–stability trade-offs in the post-training regime.
 
+<figure>
+  <img src="/images/muon-ogd-fig.png" alt="Muon-OGD overview: continual learning + projection geometry + spectral-norm Muon update." style="max-width:100%;border:1px solid #e6e8eb;border-radius:6px;">
+  <figcaption style="font-size:0.9em;color:#4a5159;margin-top:0.4em;"><strong>Muon-OGD.</strong> A projection-based continual-learning objective (Frobenius geometry) is combined with the spectral-norm geometry of the Muon update, yielding a dual gradient update that protects the subspace spanned by previous-task representations.</figcaption>
+</figure>
+
 ### AI for Science (AI4S)
 On the scientific machine learning side, I develop **physics-informed and operator-learning** frameworks for PDEs, including fractional and high-dimensional regimes. Representative work: *fPINN-DeepONet* (JCP 2025) for multi-term time-fractional diffusion–wave equations; *iPINNER* (JCP 2025) iterative inference via ensemble Kalman filtering; *AdamFLIP* for hard-constrained PINN training; *Muon with Spectral Guidance* for stiff scientific-ML objectives; *Morphy-Net* / *NSGA-PINN* multi-objective and evolutionary training; and *Neural-POD* for nonlinear functional model reduction.
+
+<figure>
+  <img src="/images/adamflip-fig.png" alt="AdamFLIP algorithm: feedback-linearization-corrected Adam update for hard-constrained PINN training." style="max-width:100%;border:1px solid #e6e8eb;border-radius:6px;">
+  <figcaption style="font-size:0.9em;color:#4a5159;margin-top:0.4em;"><strong>AdamFLIP.</strong> A closed-form feedback-linearization multiplier projects the raw gradient onto the constraint tangent before standard Adam momentum and adaptive-step bookkeeping — enforcing the hard constraint <code>h(θ) = 0</code> step-by-step rather than via a soft penalty.</figcaption>
+</figure>
 
 ---
 
